@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family:"Poppins", sans-serif;
+    background-color: #E8DCDA;
+    padding: 50px 50px 50px 0px;
+}
+
+.titulo-principal {
+    font-size: 24px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 40px;
+    font-weight:500;
+    color:#33110A;
+}
+
+.menu {
+    background-color: #A58179;
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+    top: 0; 
+    width: 100%;  
+}
+
+.menu ul {
+    list-style-type: none; 
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.menu ul li {
+    margin: 5px 15px 0px 15px;
+}
+
+.menu ul li a {
+    text-decoration: none; 
+    color: #f4f4f4; 
+    font-size: 18px; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.menu ul li a:hover {
+    background-color: #FAC2B6; 
+    color:#603F26;
+}
+
+
+.imagem1 img {
+    border-radius: 20%;
+    height: 265px;
+    width: 430px;
+    aspect-ratio: 5 / 0;
+    object-fit:cover;
+    float: left;
+    margin: 300px 0px 60px 100px;
+    padding: 0px 50px 0px 50px;
+}
+
+.texto1 {
+    text-align: justify ;
+    justify-content: right;
+    margin: 320px 0px 60px 100px;
+    padding: 1px 55px 0px 50px;
+    color: #000000;
+}
+
+
+.imagem2 img { 
+    border-radius: 50%;
+    height: 170px;
+    width: 185px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 185px;
+    padding: 0px 50px 0px 50px;
+}
+
+.texto2 { 
+    text-align: justify ;
+    justify-content: right;
+    margin-top: 35px;
+    margin-left: 100px;
+    padding: 1px 55px 0px 50px;
+    color:#000000;
+}
+
+.imagem3 img {
+    border-radius: 20%;
+    height: 260px;
+    width: 385px;
+    aspect-ratio: 5 / 0;
+    object-fit: cover;
+    float: left;
+    margin: 7px 0px 60px 100px;
+    padding: 0px 50px 0px 50px;
+}
+
+.texto3 {
+    text-align: justify ;
+    justify-content: right;
+    margin-top: 85px;
+    margin-left: 100px;
+    padding: 1px 55px 0px 50px;
+    color:#000000;
+}
+
+.titulo {
+    font-weight: 400;
+    margin-top: 40px;
+    padding: 0px 10px 0px 95px;
+    color:#502820;
+}
+
+.titulo-bem-vindo {
+    text-align: justify ;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    flex-direction: column;
+    color:#502820;
+}
+
+.hrborder {
+    border: 1px solid;
+    margin-top: 140px;
+    background-color: #33110A;
+    width: 95%; 
+}
+
+
+.titulo-contato  {
+    text-align:center;
+    color:#33110A;
+    margin-top: 50px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #FAEAE7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(219, 103, 103, 0.1);
+}
+
+form fieldset {
+    border: 1px solid #33110A;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form label{
+     display: block;
+     margin-bottom: 5px;
+     margin-top: 10px;
+     color: #000000;
+}
+
+form input[type="nome"],
+form input[type="email"],
+form textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #33110A;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #7A4F46;
+    color:#fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #866f6b;
+}
